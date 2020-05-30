@@ -105,7 +105,7 @@ func main() {
 	})
 	go func() {
 		err := app.Run(":8087")
-		fmt.Println(err)
+		panic(err)
 	}()
 	quit := make(chan os.Signal)
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
