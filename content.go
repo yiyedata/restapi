@@ -3,7 +3,7 @@ package restapi
 import (
 	"io/ioutil"
 	"net/http"
-	"restapi/utils"
+	"github.com/yiyedata/restapi/utils"
 
 	"github.com/pquerna/ffjson/ffjson"
 )
