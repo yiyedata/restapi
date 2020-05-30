@@ -1,4 +1,4 @@
-module restapi
+module github.com/yiyedata/restapi
 
 go 1.14
 
