@@ -2,8 +2,8 @@ package test
 
 import (
 	"database/sql"
-	"restapi/main/dao/model"
-	"restapi/mysql/dao"
+	"github.com/yiyedata/restapi/main/dao/model"
+	"github.com/yiyedata/restapi/mysql/dao"
 	"time"
 )
 
